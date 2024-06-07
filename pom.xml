@@ -134,7 +134,7 @@
                 <configuration>
                     <skipTests>true</skipTests>
                     <systemPropertyVariables>
-                        <!-- This is needed to tell the unit tests which profile
+                        <!-- This is need to tell the unit tests which profile
                         we are running. -->
                         <profileId>${project.activeProfiles[0].id}</profileId>
                     </systemPropertyVariables>
